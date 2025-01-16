@@ -25,5 +25,5 @@ wheels/
 *.egg
 
 # Project specific
-gno-realm-and-package-scrapper/artifacts/ 
+gno_realm_and_package_scrapper/artifacts/ 
 .DS_Store
