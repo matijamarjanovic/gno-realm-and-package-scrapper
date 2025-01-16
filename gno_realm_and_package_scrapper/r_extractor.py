@@ -8,7 +8,7 @@ import requests
 import base64
 from urllib.parse import urlparse
 from dotenv import load_dotenv
-from gno_plugin_knowledge_scrapper import get_artifacts_dir
+from gno_realm_and_package_scrapper import get_artifacts_dir
 from openai import OpenAI
 
 # Load .env file at the start of the file

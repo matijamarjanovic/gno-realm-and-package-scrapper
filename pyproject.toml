@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "gno-plugin-knowledge-scrapper"
+name = "gno-realm-and-package-scrapper"
 version = "0.1.0"
 description = "Tools for extracting content from documents and websites"
-authors = ["stefann-01 <st.nikolic01@gmail.com>"]
+authors = ["matijamarjanovic <matijamarjanovic69@gmail.com>"]
 package-mode = true
 
 [tool.poetry.dependencies]
@@ -15,7 +15,7 @@ python-dotenv = "^1.0.0"
 openai = "^1.12.0"
 
 [tool.poetry.scripts]
-extract_realms = "gno_plugin_knowledge_scrapper.r_extractor:main"
+extract_realms = "gno_realm_and_package_scrapper.r_extractor:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
