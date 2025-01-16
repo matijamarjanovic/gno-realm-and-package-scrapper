@@ -17,7 +17,7 @@ This tool is made to be used as a mapper between the realms and packages in the 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/gno-realm-and-package-scrapper.git
+git clone https://github.com/matijamarjanovic/gno-realm-and-package-scrapper.git
 cd gno-realm-and-package-scrapper
 ```
 
