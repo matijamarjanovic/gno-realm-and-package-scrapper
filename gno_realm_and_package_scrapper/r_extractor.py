@@ -117,9 +117,7 @@ def main():
         # Generate timestamp for the folder
         timestamp = time.strftime("%Y%m%d-%H%M%S")
         output_dir = os.path.join(artifacts_dir, f"gno_docs_{timestamp}")
-        realms_dir = os.path.join(output_dir, "realms") 
         os.makedirs(output_dir, exist_ok=True)
-        os.makedirs(realms_dir, exist_ok=True)
         
         # Sort files by folder for better organization
         sorted_files = sorted(gno_contents.items(), key=lambda x: (x[1][0], x[0]))
